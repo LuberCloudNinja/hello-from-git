@@ -1,0 +1,8 @@
+git init
+git add "file name" or -A to add everything.
+git log "This command help us see what is commited in our local repository before is push"
+git branch -M main
+git remote add origin https://github.com/LuberCloudNinja/hello-from-git.git
+git push -u origin main
+git diff "This command will help us see the differences between our working (before "git add "file name") area and staging area (after "git add "file name")".
+git diff "This command will help us see the differences between our staging (after "git add "file name") area and working area (before "git add "file name")".
