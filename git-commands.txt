@@ -5,4 +5,9 @@ git branch -M main
 git remote add origin https://github.com/LuberCloudNinja/hello-from-git.git
 git push -u origin main
 git diff "This command will help us see the differences between our working (before "git add "file name") area and staging area (after "git add "file name")".
-git diff "This command will help us see the differences between our staging (after "git add "file name") area and working area (before "git add "file name")".
+git diff --staged "This command will help us see the differences between our staging (after "git add "file name") area and working area (before "git add "file name")".
+git switch feaure1 "This will created a new branch"
+git switch main "This will switch back to the master branch".
+git merge feaure1 "This will merge all the files and changes from feature1 brach into the master branch.
+git branch -d "branch name"  "This command will delete a branch (a feature branch).
+git branch feature2 feature1 "This command will create feature2 and will reference feaure1 changes in it, but the head will still be the master branch"
